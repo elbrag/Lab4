@@ -1,0 +1,303 @@
+* {
+	font-family: 'Lato';
+}
+
+body {
+	margin: 0;
+}
+
+#content {
+	width: 75%;
+	margin: 0 auto;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+/*menu---------------*/
+
+#logo {
+	max-width: 90px;
+	padding: 0px 8px 0px 0px;
+	margin-bottom: -12px;
+}
+
+h1 {
+	font-family: 'Bree Serif';
+	font-weight: 300;
+	font-size: 60px;
+	color: #333;
+	line-height: 60px;
+	display:inline;
+}
+
+#mainheader {
+	position: relative;
+	overflow: hidden;
+}
+
+header {
+	background-color: #fff;
+	margin: 24px auto 24px auto;
+	width: 60%;
+	text-align: center;
+}
+
+#mainmenu {
+	overflow: hidden;
+	background-color: #333;
+}
+
+#mainmenu>ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0px 25%;
+	width: auto;
+}
+
+#mainmenu>ul>li { 
+	text-align: center;
+	list-style: none;
+	float: left;
+	padding:18px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+#mainmenu>ul>li>a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#mainmenu>ul>li>a:hover {
+	color: #ff8614;
+}
+
+#mainmenu>ul>li>a.active {
+	color: #ff8614;
+}
+
+
+/*content---------------*/
+
+.text {
+	width: 85%;
+	margin: 72px auto;
+	overflow: hidden;
+}
+
+h2 {
+	margin-bottom: 18px;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+#libraryphoto {
+	padding: 2px;
+	border: 2px solid #eee;
+}
+
+
+
+/*footer---------------*/
+
+footer {
+	margin-top: 48px;
+	background-color: #333;
+	color: #fff;
+	padding: 6px;
+}
+
+footer>p {
+	padding: 12px;
+	margin: 0;
+	text-align: center;
+	font-weight: 300;
+	font-size: 8pt;
+}
+
+/*Forms---------------*/
+
+form {
+	display: block;
+	width: 100%;
+	margin-bottom: 48px;
+}
+
+#contactform {
+	background-color: #eee;
+	overflow: hidden;
+	padding: 12px;
+}
+
+.searchcolumns {
+	float: left;
+	width: 50%;
+}
+
+.searchcolumns label {
+	float:left;
+	margin: 0px auto 12px auto;
+}
+
+.searchcolumns input {
+	font-size: 24px;
+}
+
+#contactform label, input, textarea, #loginform label {
+	float: left;
+	clear: both;
+}
+
+input, textarea {
+	margin-bottom: 12px;
+}
+
+textarea {
+	width: 60%;
+	height: 180px;
+}
+
+
+.submit, .search {
+	background-color: #333;
+	width: 98px;
+	margin: 0 auto;
+	color: #fff;
+	box-shadow: none;
+	border: none;
+	padding: 6px;
+	font-size: 18px;
+}
+
+.search {
+	margin: 0 auto;
+	float: none;
+}
+
+.searchbar {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+	font-size: 18px;
+}
+
+.upload {
+	margin: 48px 0px;
+	overflow: hidden;
+}
+
+
+/*book lists---------------*/
+
+
+#searchfield {
+	margin: 0 auto 48px auto;
+	padding: 0px 25%;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#reservations, #mybooks {
+	list-style: none;
+	padding: 0;
+	width:100%;
+}
+
+.availablebook {
+	padding: 12px;
+	line-height: 36px;
+}
+
+.availablebook:nth-child(odd) {
+	background-color: #eee;
+}
+
+.availablebook:nth-child(even) {
+	background-color: #FFDAB8;
+}
+
+.reserve, .return {
+	background-color: #333;
+	color: #fff;
+	box-shadow: none;
+	border: none;
+	padding: 6px;
+	margin: 6px;
+	float: right;
+	text-decoration: none;
+}
+
+.reservecell {
+	background-color: #fff;
+	width: 10%;
+}
+
+.reservedbook {
+	padding: 12px;
+	line-height: 36px;
+}
+
+.reservedbook:nth-child(odd) {
+	background-color: #bee0e2;
+}
+
+.reservedbook:nth-child(even) {
+	background-color: #eee;
+}
+
+
+/*gallery----------------*/
+
+#gallery {
+	margin: 48px 0px;
+	overflow: hidden;
+}
+
+.galleryimageinner {
+	padding: 6px;
+	box-sizing: border-box;
+	background-color: #333;
+}
+
+.galleryimage {
+	padding: 6px;
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+}
+
+.galleryimage:nth-child(4n+1) {
+	margin-left: -6px;
+}
+
+.galleryimage:nth-child(4n+4) {
+	margin-right: -6px;
+}
+
+/*--login-----------------*/
+
+#loginform {
+	width: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#headerlogin {
+	color: #333;
+	float: right;
+}
+
+#headerlogin:hover {
+	color: #ff8614;
+}
+
